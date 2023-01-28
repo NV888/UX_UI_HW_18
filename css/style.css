@@ -1,0 +1,63 @@
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+  font-family: "inter";
+  font-size: 20px
+}
+  
+.nav li {
+  display: inline-block;
+  font-size: 15px;
+  padding: 15px;
+  text-align: center-top;
+  vertical-align: top;
+  
+}
+h1 {
+  text-align: center;
+  color: purple;
+  font-family: "inter";
+  font-size: 20px
+}
+
+h2 {
+  text-align: right;
+  color: black;
+}
+
+p {
+  text-align: center;
+  color: rgb(78, 148, 56);
+}
+button {
+
+text-align: center;
+  color: rgb(74, 22, 206);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
