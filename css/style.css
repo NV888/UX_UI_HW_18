@@ -38,11 +38,19 @@ text-align: center;
 
 
 
-.mySkills {
+.mySkills 
 
+.flexContainer {
+display: flex
+background-color: lightpurple;
+padding:15px
+margin: 15px
+<!My UX Skills section coded using CSS flex ->
 }
 
-<div class="flex.Container">
+.flexConatiner {
+flex-direction: column
+}
   <div>1</div>
   <div>2</div>
   <div>3</div>
