@@ -1,6 +1,6 @@
-.mySkills {
+.mySkills 
 
-}
+
 
 .flexContainer{
 display: flex;
@@ -12,8 +12,8 @@ background-color: #eee
 <!--"My UX skills section coding using CSS"-->
 }
 
-.workGrid{
-}
+.workGrid
+
    
 
 .grid-container {
@@ -26,9 +26,6 @@ background-color: #eee
   grid-template-columns: auto auto auto auto;
 }
 
-.item1 {
-  grid-area: myArea;
-}
 
 .grid-container {
   display: grid;
@@ -38,18 +35,24 @@ background-color: #eee
 }
 
 @media only screen and (max-width: 600px) {
-  body 
-    background-color: lightblue;
-    flexContainer: max-width;
+  body }
+  background-color: lightblue;
+  div {
+    display: flex;
+    flex-direction: column; 
+  
+    .flexContainer: max-width;
     flexChild1: 100%;
     flexChild2: 100%;
     flexChild3: 100%;
-
-}
-
+  }
 
 
-.item1 {
+
+
+
+
+.workGrid {
   grid-area: myArea;
 }
 .grid-container {
