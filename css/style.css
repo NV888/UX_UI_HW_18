@@ -42,7 +42,7 @@ background-color: #eee
     flex-direction: column; 
   
     .flexContainer: max-width;
-    flexChild1: 100%;
+    flexChild1: 50%;
     flexChild2: 100%;
     flexChild3: 100%;
   }
