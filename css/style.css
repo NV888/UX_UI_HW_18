@@ -1,15 +1,17 @@
 .mySkills 
 
 
-.flexContainer{
-display: flex;
-flex-direction: row
-padding: 15px
-margin: auto
-wrap: 33% 
-background-color: #eee
-<!--"My UX skills section coding using CSS"-->
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  margin: auto;
+  flex-wrap: 33%;
+  background-color: #eee;
+  /* My UX skills section coding using CSS */
 }
+
+
 
 .workGrid
 
@@ -28,45 +30,51 @@ background-color: #eee
 .grid-container {
   display: grid;
   grid-template-areas: "Travel App Project BC-Radio Re-Design using RWD";
-  <!--"Please God make this code work"-->
+
   
 }
 
-@media only screen and (max-width: 600px) {
-  body }
-  background-color: lightblue;
+.flexContainer {
+    max-width: 1000000px;
+    }
+  
+.flexChild1 {
+    max-width:50%;
+}
+
+.flexChild2 {
+  max-width:50%;
+}
+
+.flexChild3 {
+  max-width:50%;
+}
+
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
   div {
     display: flex;
-    flex-direction: column; 
-  
-    .flexContainer: max-width;
-    flexChild1: 50%;
-    flexChild2: 100%;
-    flexChild3: 100%;
+    flex-direction: column;
   }
-
-
-
-.workGrid {
-  grid-area: myArea;
-}
-.grid-container {
-  display: grid;
-  grid-template-areas: "myArea myArea . . .";
-}
-
-.grid-container {
-  display: grid;
-  grid-template-rows: 100px 300px;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-}
-
-  
-
+  /* .flexContainer {} */
+  .workGrid {
+    grid-area: myArea;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-areas: "myArea myArea . . .";
+  }
+  .grid-container {
+    display: grid;
+    grid-template-rows: 100px 300px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
 
 
 
@@ -99,4 +107,3 @@ background-color: #eee
 
   
 
-  
