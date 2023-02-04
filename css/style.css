@@ -14,7 +14,6 @@ background-color: #eee
 .workGrid
 
    
-
 .grid-container {
   display: grid;
   grid-template-rows: 25% 25% 25%;
@@ -45,9 +44,6 @@ background-color: #eee
     flexChild2: 100%;
     flexChild3: 100%;
   }
-
-
-
 
 
 
